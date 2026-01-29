@@ -1,0 +1,31 @@
+defaults:
+  - _self_
+
+data:
+  batch_size: 1
+  num_samples: 200
+  output: "./our_results"              
+  cle_data_path: "dataset/clean_images" 
+  tgt_data_path: "dataset/target_images"
+
+optim:
+  alpha: 1.0
+  epsilon: 16     
+  steps: 300     
+
+model:
+  input_res: 512
+  use_source_crop: true
+  use_target_crop: true    
+  ensemble: true
+  device: "cuda"  
+  backbone: ["B16", "B32", "Laion"]  
+  window_ratio: 0.75
+  area_scale_range: [0.5, 1.0] 
+  stride: 1
+  interval: 1
+
+wandb:
+  enabled: false
+  project: ???
+  entity: ???
