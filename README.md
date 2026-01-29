@@ -1,7 +1,7 @@
 # OGJA: One-Glance Jailbreak Attack
 
 A toolkit for studying **image-only jailbreak attacks** against Commercial diffusion models. 
-![intro](src\pipeline.png)
+![intro](src/pipeline.png)
 
 This repository provides:
 
@@ -11,7 +11,7 @@ This repository provides:
 
 > ⚠️ **Disclaimer**: This code is intended **solely for academic research and safety analysis**. Do not use it for illegal, unethical, or non-consensual purposes.
 
-![intro](src\intro.png)
+![intro](src/intro.png)
 
 ## Project layout
 
